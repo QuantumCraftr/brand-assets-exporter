@@ -1,0 +1,16 @@
+{
+  "name": "brand-assets-exporter",
+  "version": "1.0.0",
+  "description": "Outil Node.js pour exporter automatiquement des logos et assets de marque en plusieurs formats.",
+  "main": "export-assets.js",
+  "scripts": {
+    "start": "node export-assets.js"
+  },
+  "author": "Open Source",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "sharp": "^0.33.2",
+    "to-ico": "^1.1.5"
+  }
+}

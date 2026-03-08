@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Ignorer le contenu généré dans output/ et exports/, mais garder les dossiers
+output/*
+!output/.gitkeep
+exports/*
+!exports/.gitkeep
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Autres fichiers temporaires
+*.tmp
+*.swp
